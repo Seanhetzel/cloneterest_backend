@@ -1,7 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+pin1 = Pin.create(name: "LA House", description: "LA life be like...", url: "https://i.pinimg.com/564x/1c/32/41/1c324124c20b1fd7a75846bbc9f73081.jpg")
+pin2 = Pin.create(name: "Suburban Pool House at Dusk", description: "Mid-century modern house in LA. Plenty of palm trees cuz why not.", url: "https://i.pinimg.com/564x/81/ee/f6/81eef60d223fb8e9074cd633b0117596.jpg")
+pin3 = Pin.create(name: "Mid-century swag", description: "Another Pool House at Night", url: "https://i.pinimg.com/564x/6a/17/03/6a170349da2008534b9aea4407fc9dfe.jpg")
